@@ -225,9 +225,6 @@ vim.keymap.set('n', '<S-Tab>', '<C-^>', { desc = 'Toggle between latest buffers'
 -- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
 
--- Switch between recent buffer
-vim.keymap.set('n', '<C-`>', '<C-^>', { noremap = true })
-
 -- Delete end of newline without moving cursor
 vim.keymap.set('n', 'J', 'mzJ`z')
 
